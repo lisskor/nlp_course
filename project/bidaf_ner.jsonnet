@@ -46,7 +46,7 @@
         "ner_tags": {
           "type": "embedding",
           "vocab_namespace": "ner",
-          "embedding_dim": 20
+          "embedding_dim": 7
         },
         "token_characters": {
           "type": "character_encoding",
@@ -68,7 +68,7 @@
     "phrase_layer": {
       "type": "lstm",
       "bidirectional": true,
-      "input_size": 220,
+      "input_size": 207,
       "hidden_size": 100,
       "num_layers": 1
     },
